@@ -1,0 +1,5 @@
+<div class="my-vote">
+    <i (click)="plus()" class="glyphicon glyphicon-menu-up" [style]="(step > 0) ? 'color: red' : ''"></i>
+    <span>{{vote}}</span>
+    <i (click)="minus()" class="glyphicon glyphicon-menu-down" [style]="(step < 0) ? 'color: red' : ''"></i>
+</div>
